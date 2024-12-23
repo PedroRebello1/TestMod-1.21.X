@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "testmod",
+	"version": "${version}",
+	"name": "Test Mod",
+	"description": "Testing this shit",
+	"authors": [
+		"RbelloDog"
+	],
+	"contact": {
+		"homepage": "https://github.com/PedroRebello1",
+		"sources": "https://github.com/PedroRebello1/TestMod-1.21.X"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/testmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rbellodog.testmod.TestMod"
+		],
+		"fabric-datagen": [
+			"net.rbellodog.testmod.TestModDataGenerator"
+		],
+		"client": [
+			"net.rbellodog.testmod.TestModClient"
+		]
+	},
+	"mixins": [
+		"testmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
