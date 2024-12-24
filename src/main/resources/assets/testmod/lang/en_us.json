@@ -3,8 +3,16 @@
   "item.testmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.testmod.pink_garnet": "Pink Garnet",
 
+  "item.testmod.chisel": "Chisel",
+
+  "block.testmod.pink_garnet_ore": "Block of Pink Garnet",
+  "block.testmod.pink_garnet_deepslate_ore": "Block of Pink Garnet",
   "block.testmod.pink_garnet_block": "Block of Pink Garnet",
   "block.testmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-  "block.testmod.oak_grape_leaves": "Oak Grape Leaves"
+
+  "block.testmod.oak_grape_leaves": "Oak Grape Leaves",
+
+  "block.testmod.magic_block": "Magic Ahh Block"
+
 
 }

@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rbellodog.testmod.TestMod;
+import net.rbellodog.testmod.item.custom.ChiselItem;
 
 public class ModItems {
     // Define the food component for the grapes
@@ -22,6 +23,8 @@ public class ModItems {
     public static final Item GRAPES = registerItem("grapes", new Item(new Item.Settings().food(GRAPES_FOOD)));
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     // Helper method to register items
     private static Item registerItem(String name, Item item) {
