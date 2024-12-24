@@ -4,6 +4,15 @@
     "testmod:pink_garnet_block",
     "testmod:raw_pink_garnet_block",
     "testmod:pink_garnet_ore",
-    "testmod:pink_garnet_deepslate_ore"
+    "testmod:pink_garnet_deepslate_ore",
+    "testmod:amethyst_ore",
+    "testmod:deepslate_amethyst_ore",
+    "testmod:ruby_ore",
+    "testmod:deepslate_ruby_ore",
+    "testmod:netherrack_ruby_ore",
+    "testmod:titanium_ore",
+    "testmod:deepslate_titanium_ore",
+    "testmod:platinum_ore",
+    "testmod:deepslate_platinum_ore"
   ]
 }

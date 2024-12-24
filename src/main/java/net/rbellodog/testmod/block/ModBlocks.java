@@ -44,6 +44,41 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.GRASS)));
 
 
+    // NEW SHIT - GOTTA DO THE JSON
+
+    public static final Block AMETHYST_ORE = registerBlock("amethyst_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
+                    AbstractBlock.Settings.create().strength(3.5f).requiresTool()));
+
+    public static final Block DEEPSLATE_AMETHYST_ORE = registerBlock("deepslate_amethyst_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(3.5f).requiresTool()));
+
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(5, 9),
+                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block NETHERRACK_RUBY_ORE = registerBlock("netherrack_ruby_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.NETHERRACK)));
+
+    public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
+    public static final Block DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool()));
+
+    public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -59,9 +94,18 @@ public class ModBlocks {
         TestMod.LOGGER.info("Registering mod blocks for " + TestMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.PINK_GARNET_BLOCK);
             entries.add(ModBlocks.OAK_GRAPE_LEAVES);
+            entries.add(ModBlocks.AMETHYST_ORE);
+            entries.add(ModBlocks.DEEPSLATE_AMETHYST_ORE);
+            entries.add(ModBlocks.RUBY_ORE);
+            entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+            entries.add(ModBlocks.NETHERRACK_RUBY_ORE);
+            entries.add(ModBlocks.TITANIUM_ORE);
+            entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+            entries.add(ModBlocks.PLATINUM_ORE);
+            entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
         });
     }
 

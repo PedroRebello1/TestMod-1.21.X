@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "testmod:pink_garnet_deepslate_ore"
+    "testmod:pink_garnet_deepslate_ore",
+    "testmod:deepslate_amethyst_ore",
+    "testmod:titanium_ore",
+    "testmod:deepslate_titanium_ore",
+    "testmod:platinum_ore",
+    "testmod:deepslate_platinum_ore"
   ]
 }

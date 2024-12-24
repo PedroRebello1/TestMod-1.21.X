@@ -3,6 +3,10 @@
   "values": [
     "testmod:pink_garnet_block",
     "testmod:raw_pink_garnet_block",
-    "testmod:pink_garnet_ore"
+    "testmod:pink_garnet_ore",
+    "testmod:amethyst_ore",
+    "testmod:ruby_ore",
+    "testmod:deepslate_ruby_ore",
+    "testmod:netherrack_ruby_ore"
   ]
 }

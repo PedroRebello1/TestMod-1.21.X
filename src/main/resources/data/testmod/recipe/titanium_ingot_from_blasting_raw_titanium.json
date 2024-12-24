@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.6,
+  "group": "titanium",
+  "ingredient": {
+    "item": "testmod:raw_titanium"
+  },
+  "result": {
+    "id": "testmod:titanium_ingot"
+  }
+}

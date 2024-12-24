@@ -32,6 +32,44 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
 
+
+                        // new shit
+
+                        entries.add(ModItems.AMETHYST);
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_TITANIUM);
+                        entries.add(ModItems.TITANIUM_INGOT);
+                        entries.add(ModItems.TITANIUM_NUGGET);
+                        entries.add(ModItems.PLATINUM_LUMP);
+
+
+                        entries.add(ModBlocks.AMETHYST_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_AMETHYST_ORE);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHERRACK_RUBY_ORE);
+                        entries.add(ModBlocks.TITANIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+                        entries.add(ModBlocks.PLATINUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
+
+
+                        entries.add(ModItems.AMETHYST_SWORD);
+                        entries.add(ModItems.AMETHYST_PICKAXE);
+                        entries.add(ModItems.AMETHYST_AXE);
+                        entries.add(ModItems.AMETHYST_SHOVEL);
+                        entries.add(ModItems.AMETHYST_HOE);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_HOE);
+                        entries.add(ModItems.PLATINUM_SWORD);
+                        entries.add(ModItems.PLATINUM_PICKAXE);
+                        entries.add(ModItems.PLATINUM_AXE);
+                        entries.add(ModItems.PLATINUM_SHOVEL);
+                        entries.add(ModItems.PLATINUM_HOE);
+
                     })
 
             .build());
