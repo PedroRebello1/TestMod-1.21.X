@@ -14,13 +14,11 @@ import net.rbellodog.testmod.item.custom.ChiselItem;
 
 public class ModItems {
     // Define the food component for the grapes
-    private static final FoodComponent GRAPES_FOOD = new FoodComponent.Builder()
-            .nutrition(4) // Restores 4 hunger points (2 drumsticks)
-            .saturationModifier(0.3f) // Moderate saturation
-            .build();
+
 
     // Register items
-    public static final Item GRAPES = registerItem("grapes", new Item(new Item.Settings().food(GRAPES_FOOD)));
+    public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+    public static final Item GRAPES = registerItem("grapes", new Item(new Item.Settings().food(ModFoodComponents.GRAPES_FOOD)));
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
